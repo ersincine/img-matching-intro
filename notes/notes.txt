@@ -1,0 +1,11 @@
+Sunum
+
+Keypointlerin distinct olmasi lazim, repeatable olmali.
+Descriptorlar photometric ve geometric degisimlere invariant veya equivariant (=covariant) olmali falan.
+Descriptorlari eslestiriyoruz.
+Keypointlere bakarak bir consensus ariyoruz (geometric verification).
+Sonra geriye kalanlar uzerinde hatayi minimize eden (sifirlamak normal sartlarda imkansizdir) bir transform buluyoruz.
+
+SIFT mantigi karmasik ama mesela BRIEF falan anlatabiliriz (rotation problemi var burada).
+ORB'da iste Rotated BRIEF var.
+SuperPoint

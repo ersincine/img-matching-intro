@@ -1,0 +1,4 @@
+
+e.g. H1to1 = np.eye(3) --- This is the identity matrix.
+
+e.g. H1to5 = H3to5 @ H1to3 --- This is the matrix multiplication. So, H3to5 = H1to5 @ np.linalg.inv(H1to3)
